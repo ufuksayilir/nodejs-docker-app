@@ -1,18 +1,17 @@
 
 body {
-    color: rgb(94, 26, 21);
-    background: beige;
-    font-family: 'Montserrat', sans-serif;
+    color: rgb(100, 100, 100);
+    background: rgb(172, 96, 96);
 }
 
-#listening {
-    color: #58400d;
-}
-
-p {
+h1 {
+    color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div {
-    width: 20%;
+    margin: 10px;
+    padding: 5px;
 }
+
+.blur {filter: blur(4px);}
