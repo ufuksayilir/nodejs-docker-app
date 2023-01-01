@@ -1,2 +1,6 @@
 # nodejs-docker-app
-Build and Run a Node.js app in a Docker Container
+This is a template for building a Node.js app in a Docker Container
+
+docker build . -t bio-app
+
+docker run -p 80:5000 bio-app
